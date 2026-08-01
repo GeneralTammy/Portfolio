@@ -2,7 +2,6 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import {
   ExternalLink,
-  Github,
   Building2,
   Plane,
   GraduationCap,
@@ -24,8 +23,8 @@ export function Projects() {
         "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
       icon: Building2,
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "https://github.com/GeneralTammy/Fireisland",
-      demo: "https://github.com/GeneralTammy/Fireisland",
+
+      demo: "https://luxuryfireislandhomes-eight.vercel.app/",
     },
     {
       id: 2,
@@ -36,7 +35,7 @@ export function Projects() {
         "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80",
       icon: Plane,
       tags: ["Next.js", "TypeScript", "PostgreSQL", "Redis"],
-      github: "https://github.com/Ebonybrucetravel/Ebonybrucetravel",
+
       demo: "https://ebonybrucetravel.vercel.app/",
     },
     {
@@ -48,7 +47,7 @@ export function Projects() {
         "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&q=80",
       icon: GraduationCap,
       tags: ["React", "Firebase", "Tailwind", "WebRTC"],
-      github: "https://github.com/yourusername/academy-app",
+
       demo: "https://cortouchmediacademy.vercel.app/",
     },
     {
@@ -60,8 +59,8 @@ export function Projects() {
         "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
       icon: Scale,
       tags: ["React", "Node.js", "PostgreSQL", "AWS"],
-      github: "https://github.com/yourusername/caseready",
-      demo: "https://caseready.vercel.app/",
+
+      demo: "https://casereadylegal.vercel.app/",
     },
   ];
 
@@ -137,15 +136,6 @@ export function Projects() {
                       }}
                       transition={{ duration: 0.3 }}
                     >
-                      <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label={`View ${project.title} GitHub repository`}
-                        className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors"
-                      >
-                        <Github size={20} className="text-gray-900" />
-                      </a>
                       <a
                         href={project.demo}
                         target="_blank"
