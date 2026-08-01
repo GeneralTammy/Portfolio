@@ -61,9 +61,9 @@ export function About() {
               transition={{ duration: 0.8, delay: 0.3 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3b3Jrc3BhY2UlMjBkZXNrJTIwZGV2ZWxvcGVyfGVufDF8fHx8MTc4MjQyNDM4OHww&ixlib=rb-4.1.0&q=80&w=1080"
-                alt="Workspace"
-                className="rounded-2xl shadow-2xl"
+                src="/profile.jpeg"
+                alt="Mayowa"
+                className="rounded-2xl shadow-2xl w-full object-cover"
               />
             </motion.div>
 
